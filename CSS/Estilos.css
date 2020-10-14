@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body
+{
+	margin-top: 30px;
+	padding: 20px;
+	background-color: #021516; 
+}
+
+h1, h2, h3
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+	font-size: 21pt;
+	line-height: 1.1;
+	text-align: center;
+	color: #ECE9EC;
+}
+
+h2
+{
+	font-size: 10.5pt;
+	line-height: 0.5;
+	text-align: center;
+	color: #ECE9EC;
+}
+
+h3
+{
+	font-size: 14pt;
+	color: #ECE9EC;
+}
+
+h4
+{
+	line-height: 0.0;
+	color: #ECEDED;
+	font-family: Arial;
+	font-size: 9pt;
+	text-align: center;
+}
+
+
+.Contenedor
+{
+	background: #324750;
+	padding: 2%;
+	margin: 0 auto;
+	width: 60%;
+	border-top: 10px solid #F52900;
+	border-bottom: 	10px solid #F52900;	 
+}
+
+p
+{
+	font-family: 'Noto Sans', sans-serif;
+	text-align: justify;
+	font-size: 11pt;
+	color: 	#FFF;
+}
+
+th
+{
+	color: 	#ECE9EC;
+	font-size: 12pt;
+	font-family: Arial;
+	padding-bottom: 5px;
+}
+
+td
+{
+	color: 	#FFF;
+	background: #236660;
+	font-family: Courier new;
+	font-size: 11pt;
+	padding: 5px;
+}
+
+table
+{
+	border-spacing: 10px;
+	width: 100%;
+}
+
+
