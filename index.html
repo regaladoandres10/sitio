@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title> 1011 - Esfera - Juez en linea de URI </title>
 		<link rel="stylesheet" type="text/css" href="CSS/Estilos.css">
+		<script type="text/javascript" src="JS/Operaciones.js"></script>
 	</head>
 	<body>
 
@@ -14,7 +15,7 @@
 			<br>
 			<hr>
 			<p>
-				Haga un programa que calcule y muestre el volumen de una esfera proporcionándole el valor de su radio (R). La fórmula para calcula el volumen es: (4/3)*pi*R<sup>3</sup>. Considere (asigne) para pi el valor 3,14159.
+				Haga un programa que calcule y muestre el volumen de una esfera proporcionándole el valor de su radio (R). La fórmula para calcula el volumen es: (4/3) * pi* R<sup>3</sup>. Considere (asigne) para pi el valor 3,14159.
 			</p>
 			<p>
 				Consejo: use (4 / 30) o (4.0 / 3) en su fórmula, porque algunos lenjuages (incluido C++) asumen que el resultado de la división entre dos números enteros es otro número entero.:)  
@@ -29,26 +30,40 @@
 			</p>
 			<hr>
 			<center>
-				<table>
+				<table id="table1">
 					<tr>
 						<th> Muestra de entrada </th>
 						<th> Muestra de salida </th>
 					</tr>
 					<tr>
 						<td> 3 </td>
-						<td> VOLUMEN = 113.097 </td>
+						<td> VOLUME = 113.097 </td>
 					</tr>
 					<tr>
 						<td> 15 </td>
-						<td> VOLUMEN = 14137.155 </td>
+						<td> VOLUME = 14137.155 </td>
 					</tr>
 					<tr>
 						<td> 1523 </td>
-						<td> VOLUMEN = 14797486501.627 </td>
+						<td> VOLUME = 14797486501.627 </td>
 					</tr>
 				</table>
 			</center>
-
+			<hr>
+				<h1> <strong> Ejecutar Programa </strong> </h1>
+			<hr>
+			<table>
+				<tr>
+					<th> Entrada 1 </th>
+					<th> Mostrar </th>
+					<th> Salida </th>
+				</tr>
+				<tr>			
+					<td id="caja1"> <input type="number" id="numero"> </td>
+					<td id="button"> <input type="button" value="Mostrar" id="btn_Mostrar"> </td>
+					<td align="center"> <div id="div_Resultado"></div> </td>
+				</tr>
+			</table>
 		</div>
 	</body>
 </html>

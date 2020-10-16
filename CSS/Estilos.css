@@ -69,6 +69,7 @@ th
 	font-size: 12pt;
 	font-family: Arial;
 	padding-bottom: 5px;
+
 }
 
 td
@@ -86,4 +87,28 @@ table
 	width: 100%;
 }
 
+#table1 td:hover
+{
+	background: #F52900;
+}
 
+#caja1, #button
+{
+	text-align: center;
+	width: 33.3%;
+}
+
+#btn_Mostrar
+{
+	margin-bottom: 0;
+	background: #4897D8;
+	color: 	#FFF;
+	border: none;
+	width: 75%;
+	padding: 5px;
+}
+
+#btn_Mostrar:hover
+{
+	background: #F52900;
+}
