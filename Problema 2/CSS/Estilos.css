@@ -96,3 +96,32 @@ table
 {
 	background: #F52900;
 }
+
+#caja1, #caja2, #button
+{
+	text-align: center;
+	width: 25%;
+}
+
+#btn_Mostrar
+{
+	background: #4897D8;
+	border: none;
+	margin-bottom: 0;
+	width: 70%;
+}
+
+input
+{
+	width: 60%;
+}
+
+#btn_Mostrar:hover
+{
+	background: #F52900;
+}
+
+#div_Resultado
+{
+	text-align: center;
+}
