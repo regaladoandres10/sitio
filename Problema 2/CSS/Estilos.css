@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body
+{
+	background-color: #021516;
+	margin-top: 30px;
+	padding: 20px;
+}
+img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2, h3
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+	color: #ECE9EC;
+	font-size: 21pt;
+	line-height: 1.1;
+	text-align: center;
+}
+
+h2
+{
+	color: #ECE9EC;
+	font-size: 10.5pt;
+	text-align: center;
+	line-height: 0.5;
+}
+
+h3
+{
+	color: #ECE9EC;
+	font-size: 14pt;
+}
+
+h4
+{
+	color: #ECEDED;
+	font-family: Arial;
+	font-size: 9pt;
+	line-height: 0.0;
+	text-align: center;
+}
+
+.Contenedor
+{
+	background: #324750;
+	border-bottom: 10px solid #F52900;
+	border-top: 10px solid #F52900;
+	margin: 0 auto;
+	padding: 2%;
+	width: 60%;
+}
+
+p
+{
+	color: #FFF;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 11pt;
+	text-align: justify;
+}
+
+th	
+{
+	color: #ECE9EC;
+	font-family: Arial;
+	font-size: 12pt;
+	padding-bottom: 5px;
+}
+
+td
+{
+	background: #236660;
+	color: #FFF;
+	font-family: Courier New;
+	font-size: 11pt;
+	padding: 5px;
+
+}
+
+table
+{
+	border-spacing: 10px;
+	width: 100%;
+}
+
+#table1 td:hover
+{
+	background: #F52900;
+}
